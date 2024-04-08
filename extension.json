@@ -46,6 +46,14 @@
           "default": "edit view insert format",
           "required": false,
           "description": "Specify the menus to display here. To use the default menu bar, clear this field. To hide the menu, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#menubar"
+      },
+      {
+        "id": "extended_valid_elements",
+        "name": "Extended Valid Elements",
+        "type": "Symbol",
+        "default": "script[src|async|defer|type|charset]",
+        "required":false,
+        "description": "Specify Extended Valid Elements"
       }
     ]
   }
